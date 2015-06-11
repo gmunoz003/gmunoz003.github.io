@@ -62,14 +62,29 @@
 	
 	#image {
 		position: relative;
-		width: 100;
+		width: 100%;
+		filter: blur(600px)
 	}
 	
 	#hero article {
 		position: absolute;
 		top:300px
 		left: 0;
-		width: 100px;
+		width: 75%;
+	}
+	
+	#hero article span {
+		color: white;
+		font: bold 24px/45px Verdana, Geneva, sans-serif;
+		font-style: bold;
+		letter-spacing: -1px;
+		background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.7);
+		padding:0 5px
+	}
+	
+	#hero article span.spacer {
+		padding: 0 5px;
 	}
 		
 </style>
@@ -92,11 +107,11 @@
     </nav>
   </header>
   <div id="hero">
-  		<article>
-        	<h2>Unique Management</h2>
-            <p>Grace Taylor brings to you a unique management exprience taylored to your needs. A journey that started over 4 years ago has now transformed in to Project Management for organizations that need change and opportunity. Discover what Grace Taylor has to offer and contact us for more information.</p>
-    </article>
- <img src="photo-1422479516648-9b1f0b6e8da8.jpeg" width="1000" height="547" alt="Where the magic happens"></div>
+  		<article><span>
+        	<h2><span>Unique Management<span class='spacer'></span></h2>
+            <p><span><span class='spacer'>Grace Taylor brings to you a unique management exprience taylored to your needs. A journey that started over 4 years ago has now transformed in to Project Management for organizations that need change and opportunity. Discover what Grace Taylor has to offer and contact us for more information.<span class='spacer'></span></p>
+    </span></article>
+ <img src="photo-1422479516648-9b1f0b6e8da8.jpeg" width="1000" height="600" alt="Where the magic happens"></div>
   		<article id="main"><h2>Unique Management</h2>
             <p>Grace Taylor brings to you a unique management exprience taylored to your needs. A journey that started over 4 years ago has now transformed in to Project Management for organizations that need change and opportunity. Discover what Grace Taylor has to offer and contact us for more information.</p>
         </article>
