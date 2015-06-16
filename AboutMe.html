@@ -1,9 +1,8 @@
 <!doctype html>
-  <html>
-  	<head>
-    	<meta charset="utf=8">
-        
-        
+<html>
+<head>  
+<meta charset="utf=8">
+
 <style>
 	body {
 		margin: 0;
@@ -61,18 +60,40 @@
 		font-size: 12px
 	}
 	
+	.img-wrap {
+		position: relative;
+		width: 100%;
+		filter: brightness(50%);
+		-webkit-filter: brightness(50%);
+		-moz-filter: brightness(50%);
+		-o-filter: brightness(50%);
+		-ms-filter: brightness(50%);
+		max-width: 100%;
+		
+	}
+	
+	
+	.text {
+	left: 5%;
+	position: absolute;
+	text-align: center;
+	top: 200px;
+	width: 75%;
+	color: #F90;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	}
 		
 </style>
 
-
-		<title>About Me</title>
+<title>Grace Taylor</title>
 </head>
-
 
 <body>
 <div id="wrapper">
   <header id="top">
-    <h1>Grace Taylor</h1>
+    <img width="100px" height="100px" src="Logo.png">
     <nav id="mainnav">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -83,6 +104,11 @@
       </ul>
     </nav>
   </header>
-  
+  <div id="hero">
+    	<div class="img-wrap">
+ 					<img src="RawEvent.jpg" width="100%" height="auto" alt="Raw Event">
+                    <div class="text">
+       						Management with Personality
+   						 </div>
   </div>
-</html>
+</div>
