@@ -74,13 +74,8 @@
 	}
 	
 	
-	.text {
-	left: 5%;
-	position: absolute;
-	text-align: center;
-	top: 100px;
-	color: rgba(255,255,255,1);
-	width: 75%;
+	#copy h1 {
+	color: #f90;
 	font-weight: bold;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 36px;
@@ -94,6 +89,48 @@
 	
 	#copy {
 		text-align: center;
+	}
+	
+	.group:before,
+	.group:after {
+		content: "";
+		display: table;
+	}
+	
+	.group:after {
+		clear: both;
+	}
+	
+	.group {
+		background: #eaeaed;
+		border-radius: 6px;
+		clear: both;
+	}
+	
+	.group,
+	section,
+	aside,
+		{
+		margin: 1 1.5% 24% 1.5%;
+		font-family: Verdana, Geneva, sans-serif;
+		font-size:16px;
+	}
+	
+	section {
+		padding-top: 20px;
+		float: left;
+		width: 60%;
+	}
+	
+	aside {
+		padding-top: 20px;
+		float: right;
+		width: 40%;
+	}
+	
+	#copy p {
+		font-family: Verdana, Geneva, sans-serif;
+		font-size:16px;
 	}
 		
 </style>
@@ -112,16 +149,36 @@
         <li><a href="Contact Me.html">Contact Me</a></li>
       </ul>
     </nav>
-  </header>
-  
-  <div id="hero">
+    
+<div id="copy">
+<h1> Management with Personality</h1>
+<p>
+Grace Taylor brings to you a unique management and personality Taylored to your needs. <br>A journey that started over 4 years ago has now transformed in to Project Management for organizations that need change and opportunity. <br>Discover what Grace Taylor has to offer and contact us for more information.</p>
+
+</div>
+ 
+ <div id="hero">
     	<div class="img-wrap">
- 					<img src="RawEvent.jpg" width="100%" height="auto" alt="Raw Event">
-                    <div class="text">
-       						Management with Personality
-   						 </div>        	
+ 					<img src="RawEvent.jpg" width="100%" height="auto" alt="Raw Event">     	
   </div>
 </div>
+
+ </header>
+
+<div class="group">
+    
+    <section>
+<iframe src="http://snapwidget.com/sc/?u=Z3JhY2UudGF5bG9yLm11bm96fGlufDE1MHwzfDN8fHllc3wyMHxub25lfG9uU3RhcnR8eWVzfG5v&ve=170615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:500px; height:150px"></iframe>
+<br>
+    </section>
+    
+    <aside>
+       <code><a class="twitter-timeline" href="https://twitter.com/TheGraceTaylor" data-widget-id="611046865409159168">Tweets by @TheGraceTaylor</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></code>
+
+    </aside>
+    
+</div>
+
 
 <footer>
     		<div id="copy">
