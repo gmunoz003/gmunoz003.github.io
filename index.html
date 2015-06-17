@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
-<head>  
+<head> 
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> 
 <meta charset="utf=8">
 
 <style>
@@ -69,6 +71,7 @@
 		-o-filter: brightness(50%);
 		-ms-filter: brightness(50%);
 		max-width: 100%;
+		
 	}
 	
 	
@@ -76,32 +79,36 @@
 	left: 0;
 	position: absolute;
 	text-align: center;
-	top: 200px;
+	top: 100px;
 	width: 100%;
 	color: rgba(255,255,255,1);
 	font-weight: bold;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 36px;
+	overflow: visible;
 	}
 		
-#apDiv1 {
-	position: absolute;
-	left: 1px;
-	top: 591px;
-	width: 744px;
-	height: 222px;
-	z-index: 1;
-}
+	#top {
+		padding-top: 5px;
+		padding-left: 5px;'
+	
+	}
+	
+	#copy {
+		text-align: center;
+	}
+
+
 </style>
 
 <title>Grace Taylor</title>
 </head>
 
 <body>
-<div id="apDiv1"></div>
 <div id="wrapper">
   <header id="top">
     <img width="100px" height="100px" src="Logo.png">
+  </header>
     <nav id="mainnav">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -116,18 +123,22 @@
     	<div class="img-wrap">
 		  <img src="confroom.jpg" width="100%" height="auto" alt="Where the magic happens">
           <div class="text">
-       						Unique Management
+       						<i class="fa fa-circle-o-notch fa-spin"></i></i>Unique Management<i class="fa fa-circle-o-notch fa-spin"></i>
 		  </div>
     </div>
 </div>
   		<article id="main"><h2>Unique Management</h2>
+        <i class="fa fa-bolt"></i>
             <p>Grace Taylor brings to you a unique management exprience taylored to your needs. A journey that started over 4 years ago has now transformed in to Project Management for organizations that need change and opportunity. Discover what Grace Taylor has to offer and contact us for more information.</p>
         </article>
         <aside id="sidebar"><h2>Unique Management</h2>
             <p>Grace Taylor brings to you a unique management exprience taylored to your needs. A journey that started over 4 years ago has now transformed in to Project Management for organizations that need change and opportunity. Discover what Grace Taylor has to offer and contact us for more information.</p>
         </aside>
+        
         <footer>
-        	<p>&copy; Copywright 2015 Grace Taylor</p>
+    		<div id="copy">
+        		<p>&copy; Copywright 2015 Grace Taylor</p>
+            </div>
         </footer>
 </div>
 </body>
